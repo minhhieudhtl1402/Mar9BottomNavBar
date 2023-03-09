@@ -8,5 +8,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val name="Vu MInh Hieu"
+        val fix="had fix error"
     }
 }

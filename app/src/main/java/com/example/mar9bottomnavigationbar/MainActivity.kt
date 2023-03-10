@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val fixOnRemoteRepoSecond = "has fixed"
         val fixThenPull = "pull instead fetch and merge"
         val fixTextBranch = true
+        val fixTextBranch2 = true
         binding.bottomNav.setOnNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.action_home -> {

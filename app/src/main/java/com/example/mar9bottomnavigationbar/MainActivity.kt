@@ -13,24 +13,27 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val name = "Vu MInh Hieu"
         val fix = "had fix error"
-        val fixOnRemoteRepo="has fixed"
-        val fixOnRemoteRepoSecond="has fixed"
-        val fixThenPull="pull instead fetch and merge"
+        val fixOnRemoteRepo = "has fixed"
+        val fixOnRemoteRepoSecond = "has fixed"
+        val fixThenPull = "pull instead fetch and merge"
+        val fixTextBranch = true
         binding.bottomNav.setOnNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.action_home -> {
-                    Toast.makeText(this,"Home",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.action_my_page -> {
-                    Toast.makeText(this,"My page",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "My page", Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.action_favourite -> {
-                    Toast.makeText(this,"Favourite",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Favourite", Toast.LENGTH_SHORT).show()
                     true
                 }
-                else -> {true}
+                else -> {
+                    true
+                }
             }
 
 

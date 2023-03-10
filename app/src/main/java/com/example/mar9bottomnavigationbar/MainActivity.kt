@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val name = "Vu MInh Hieu"
         val fix = "had fix error"
-
+        val fixOnRemoteRepo="has fixed"
         binding.bottomNav.setOnNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.action_home -> {

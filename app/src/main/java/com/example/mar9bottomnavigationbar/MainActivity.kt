@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val fix = "had fix error"
         val fixOnRemoteRepo="has fixed"
         val fixOnRemoteRepoSecond="has fixed"
+        val fixThenPull="pull instead fetch and merge"
         binding.bottomNav.setOnNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.action_home -> {
